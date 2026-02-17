@@ -1,0 +1,17 @@
+{
+  "schema": "ROTATION_RECORD_v0",
+  "schema_version": "0.0.1",
+  "seed": 1337,
+  "rotation_in": 0,
+  "rotation_out": 1,
+  "prev_state_file": "CENTER_STATE_v0.json",
+  "prev_state_hash": "2349B39E3AFCEDD5718711CD92B058CC2DC98B92BF58B57956A5625CAFBE1E33",
+  "descriptor_file": "DESCRIPTOR_EXAMPLE_v0.json",
+  "descriptor_hash": "73A99D99AFEDD1F4DC18EE37EFB95AB67C2FA1203834C74A13A3CA41248CDD87",
+  "eval_result_file": "EVAL_RESULT_EXAMPLE_v0.json",
+  "evaluation_score": 0.50,
+  "delta_structure": 0.00,
+  "snap_flag": false,
+  "new_state_file": "CENTER_STATE_r1_example.json",
+  "new_state_hash": "57095AA4080D9F1036BD0BD9B312137D01507818EC260FEF4A4BC1278EB88957"
+}

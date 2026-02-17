@@ -1,0 +1,22 @@
+{
+  "schema": "CENTER_STATE_v0",
+  "schema_version": "0.0.1",
+  "seed": 1337,
+  "rotation_index": 1,
+  "active_constraints": [
+    "C0: structural-only; no content storage",
+    "C1: symmetric rotation; no privileged state",
+    "C2: determinism; replay must match"
+  ],
+  "descriptor_history": [
+    "73A99D99AFEDD1F4DC18EE37EFB95AB67C2FA1203834C74A13A3CA41248CDD87"
+  ],
+  "snap_history": [
+    { "rotation_index": 1, "snap_flag": false }
+  ],
+  "evaluation_history": [
+    { "rotation_index": 1, "evaluation_score": 0.50 }
+  ],
+  "current_objective": "stabilize",
+  "current_spine": "dormant"
+}
