@@ -1,0 +1,50 @@
+{
+  "schema": "DESCRIPTOR_v0",
+  "schema_version": "0.0.1",
+  "descriptor_id": "D0",
+  "constraint": [
+    "C0: structural-only; no content storage",
+    "C1: no naming; only structural descriptors",
+    "C2: determinism; seeded replay"
+  ],
+  "refusal": [
+    "R0: refuse content retention",
+    "R1: refuse private negotiation / exclusive adoption",
+    "R2: refuse privileged agent state"
+  ],
+  "objective": "stabilize_then_explore",
+  "resource-allocation": {
+    "budget": {
+      "step_budget": 150,
+      "loop_rate_target": 0.2,
+      "risk_exposure_max": 0.1,
+      "novelty_floor": 0.15
+    },
+    "attention_bias_axes": [
+      "boundary-pressure",
+      "loopiness",
+      "novelty",
+      "coherence",
+      "risk"
+    ],
+    "axis_weights": [0.22, 0.18, 0.24, 0.26, 0.1]
+  },
+  "risk-bound": {
+    "loop_rate_max": 0.2,
+    "blocked_adjacency_max": 0.1,
+    "novelty_min": 0.15
+  },
+  "bias-signal": {
+    "primary_axis": "coherence",
+    "secondary_axis": "novelty",
+    "refusal_surface": [
+      "no naming",
+      "no content retention",
+      "no privileged state"
+    ]
+  },
+  "topology-edit": {
+    "edit_type": "none",
+    "edit_delta": 0.0
+  }
+}
