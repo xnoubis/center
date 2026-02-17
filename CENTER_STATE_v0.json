@@ -1,0 +1,16 @@
+{
+  "schema": "CENTER_STATE_v0",
+  "schema_version": "0.0.1",
+  "seed": 1337,
+  "rotation_index": 0,
+  "active_constraints": [
+    "C0: structural-only; no content storage",
+    "C1: symmetric rotation; no privileged state",
+    "C2: determinism; replay must match"
+  ],
+  "descriptor_history": [],
+  "snap_history": [],
+  "evaluation_history": [],
+  "current_objective": "stabilize",
+  "current_spine": "dormant"
+}
