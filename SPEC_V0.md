@@ -57,4 +57,3 @@ snap_flag:
 evaluation_score:
 
 Replay must produce identical state transitions.
-
