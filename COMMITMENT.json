@@ -1,0 +1,16 @@
+{
+  "project": "Structural Commons Substrate",
+  "version": "v0",
+  "timestamp": "2026-02-17T00:00:00Z",
+  "intent": "To establish a public, structural-only commons substrate for rotating multi-agent construction without content retention or exclusive negotiation.",
+  "principles": [
+    "Public-first",
+    "No secret adoption",
+    "No content storage",
+    "Symmetric rotation",
+    "Structural falsifiability"
+  ],
+  "exclusive_adoption": false,
+  "private_negotiation": false,
+  "initial_spec_hash": "to_be_generated"
+}
